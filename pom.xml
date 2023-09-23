@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.platform</groupId>
-	<artifactId>novel-backend-service</artifactId>
-	<name>novel</name>
-	<description>Novel Project</description>
+	<artifactId>inquiry-backend-service</artifactId>
+	<name>inquiry</name>
+	<description>Inquiry service</description>
 	<packaging>jar</packaging>
 	<version>1.0</version>
 	<properties>

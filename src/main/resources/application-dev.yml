@@ -1,11 +1,11 @@
 server:
-  port: 8084
+  port: 8083
   servlet:
     context-path: /
 
 spring:
   application:
-    name: novel
+    name: Inquiry
   main:
     allow-bean-definition-overriding: true
   jpa:
@@ -30,9 +30,9 @@ spring:
         uri: mongodb://mongo:mongo123@localhost:27017/inquiryDB?retryWrites=true&w=majority&directConnection=true&authMechanism=SCRAM-SHA-1&authSource=admin
 ###swagger
 application:
-  description: Novel
+  description: Inquiry
   version: 1.0
-build.date: 2023-07-02
+build.date: 2023-09-23
 
 ###Timeout api
 rest:

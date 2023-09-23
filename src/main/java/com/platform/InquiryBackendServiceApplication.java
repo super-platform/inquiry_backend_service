@@ -15,7 +15,7 @@ import java.util.Map;
 @SpringBootApplication
 @EnableCaching
 @Slf4j
-public class NovelBackendServiceApplication {
+public class InquiryBackendServiceApplication {
 
 	private static final String SPRING_PROFILE_DEFAULT = "spring.profiles.default";
 	private static final String SPRING_PROFILE_DEVELOPMENT = "dev";
@@ -25,7 +25,7 @@ public class NovelBackendServiceApplication {
 
 	private final Environment env;
 
-	public NovelBackendServiceApplication(Environment env) {
+	public InquiryBackendServiceApplication(Environment env) {
 		this.env = env;
 	}
 
@@ -53,7 +53,7 @@ public class NovelBackendServiceApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication app = new SpringApplication(NovelBackendServiceApplication.class);
+		SpringApplication app = new SpringApplication(InquiryBackendServiceApplication.class);
 
 		addDefaultProfile(app);
 
